@@ -3,7 +3,7 @@ import visom from './visom.png'
 import rjinftch from './rj-infotech.png'
 import outlier from './outlier.jpg'
 import obdurate from './obdurate.png'
-import istudio from './iStudio.png'
+import istudio from './istudio.png'
 
 export {
     hero,
