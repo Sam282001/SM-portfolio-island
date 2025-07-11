@@ -23,6 +23,8 @@ import ghub from "./ghub.svg";
 import frs from "./frs.svg";
 import atm from "./atm.svg";
 import zentry from "./zentry.svg";
+import typescript from "./typescript.svg";
+import cloudstash from "./cldstsh.svg";
 
 export {
   css,
@@ -50,4 +52,6 @@ export {
   atm,
   frs,
   zentry,
+  typescript,
+  cloudstash,
 };

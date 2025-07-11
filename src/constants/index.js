@@ -21,18 +21,55 @@ import {
   atm,
   frs,
   zentry,
+  typescript,
+  cloudstash,
 } from "../assets/icons";
 
 export const skills = [
   {
-    imageUrl: css,
-    name: "CSS",
+    imageUrl: python,
+    name: "Python",
+    type: "Backend",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
     type: "Frontend",
+  },
+  {
+    imageUrl: typescript,
+    name: "TypeScript",
+    type: "Backend",
+  },
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
+  },
+  {
+    imageUrl: django,
+    name: "Django",
+    type: "Backend",
   },
   {
     imageUrl: express,
     name: "Express",
     type: "Backend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: mysql,
+    name: "MySQL",
+    type: "Database",
   },
   {
     imageUrl: git,
@@ -50,8 +87,8 @@ export const skills = [
     type: "Frontend",
   },
   {
-    imageUrl: javascript,
-    name: "JavaScript",
+    imageUrl: css,
+    name: "CSS",
     type: "Frontend",
   },
   //   {
@@ -73,37 +110,6 @@ export const skills = [
     imageUrl: threejs,
     name: "Three.js",
     type: "Frontend",
-  },
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
-  },
-  {
-    imageUrl: react,
-    name: "React",
-    type: "Frontend",
-  },
-  //   {
-  //     imageUrl: nextjs,
-  //     name: "Next.js",
-  //     type: "Frontend",
-  //   },
-  {
-    imageUrl: mysql,
-    name: "MySQL",
-    type: "Database",
-  },
-  {
-    imageUrl: python,
-    name: "Python",
-    type: "Backend",
-  },
-
-  {
-    imageUrl: django,
-    name: "Django",
-    type: "Backend",
   },
   {
     imageUrl: figma,
@@ -194,9 +200,17 @@ export const experiences = [
 
 export const projects = [
   {
+    iconUrl: cloudstash,
+    theme: "btn-back-black",
+    name: "CloudStash - Cloud Storage Solution",
+    description:
+      "A cloud storage app with OTP-based login, categorized files, real-time previews, sharing, and a responsive dashboard with storage analytics for seamless file management across all devices.",
+    link: "https://github.com/Sam282001/Cloud_Stash",
+  },
+  {
     iconUrl: ghub,
     theme: "btn-back-red",
-    name: "Gamer's Hub",
+    name: "Gamer's Hub - Online Gaming Store",
     description:
       "A gaming e-commerce site with user login, product search, Razorpay checkout, email alerts, and responsive design, ensuring a smooth shopping experience across all devices.",
     link: "https://github.com/Sam282001/Gamer-Hub",
